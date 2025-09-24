@@ -1,0 +1,9 @@
+# Use the official Postgres base image
+FROM postgres:15
+
+# Copy initialization scripts (NOT NECESSARY)
+# Any .sql or .sh files in this folder will run at container startup
+COPY ./init.sql /docker-entrypoint-initdb.d/
+
+# Expose Postgres default port
+EXPOSE 5432
