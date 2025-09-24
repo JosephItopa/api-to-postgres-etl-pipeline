@@ -1,9 +1,9 @@
 import requests
 import pandas as pd
 
-def extract_data():
-    # Construct the API with star and end dates provided by Data Factory, formatted for geojson output.
-    url = f"https://rickandmortyapi.com/api/character/1,10"
+def extract_data(url):
+    # Construct the API with formatted for geojson output.
+    url = url #f"https://rickandmortyapi.com/api/character/1,10"
 
     # Make the GET request to fetch data
     response = requests.get(url)

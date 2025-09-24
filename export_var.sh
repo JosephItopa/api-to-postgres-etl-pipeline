@@ -1,6 +1,0 @@
-export POSTGRES_USER=
-export POSTGRES_PASSWORD=
-export POSTGRES_PORT=5432
-export POSTGRES_HOST=localhost
-export POSTGRES_DW=
-export CSV_URL=
