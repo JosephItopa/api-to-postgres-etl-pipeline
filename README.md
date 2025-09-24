@@ -3,6 +3,8 @@
 ##### The ricky and morty API contains several data on the movie, characters, and adventure of ricky and morty. 
 ##### This ETL pipeline will extract the records from the API, and carry out some transformation, then load on to postgres database which is hosted on docker.
 
+#### ARCHITECTURE
+
 #### HOW TO RUN THE PROJECT
 ##### Step 1: Clone the repo using:- git clone https://github.com/JosephItopa/api-to-postgres-etl-pipeline.git
 
@@ -28,4 +30,4 @@
 #####   url VARCHAR(100) UNIQUE NOT NULL
 #####   );
 
-##### Step 5: After that, restart the docker service by the docker service again. 
+##### Step 5: After that, restart the docker service. 
