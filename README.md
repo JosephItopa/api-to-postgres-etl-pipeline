@@ -5,6 +5,9 @@
 
 #### ARCHITECTURE
 
+<img width="528" height="271" alt="image" src="https://github.com/user-attachments/assets/a3e73085-05c4-4652-8a24-36e41c26366a" />
+
+
 #### HOW TO RUN THE PROJECT
 ##### Step 1: Clone the repo using:- git clone https://github.com/JosephItopa/api-to-postgres-etl-pipeline.git
 
